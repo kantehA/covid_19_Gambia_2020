@@ -1,0 +1,1207 @@
+{
+  "meta": {
+    "updated": "2020-04-20", 
+    "panels": [
+      "tree", 
+      "map", 
+      "entropy"
+    ], 
+    "description": "[\u8bf7\u70b9\u51fb\u8fd9\u91cc\u67e5\u770b\u4e2d\u6587\u7248\u672c](/ncov/zh)\n\n[Latest Nextstrain COVID-19 situation report in English](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20) and [in other languages](https://nextstrain.org/narratives/ncov/sit-rep/). Follow [@nextstrain](https://twitter.com/nextstrain) for continual updates to data and analysis.\n\nThis phylogeny shows evolutionary relationships of hCoV-19 (or SARS-CoV-2) viruses from the ongoing novel coronavirus COVID-19 pandemic. This phylogeny shows an initial emergence in Wuhan, China, in Nov-Dec 2019 followed by sustained human-to-human transmission leading to sampled infections. Although the genetic relationships among sampled viruses are quite clear, there is considerable uncertainty surrounding estimates of specific transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred transmission patterns are only a hypothesis.\n\nThere are thousands of complete genomes available now and this number increases by hundreds of every day. This visualization can only handle ~3000 genomes in a single view for performance and legibility reasons. Because of this we have to subsample available genome data for these analysis views. Our primary [global analysis](/ncov/global/) subsamples to 120 genomes per admin division per month. This will result in a more equitable global sequence distribution, but it hides samples available from regions that are doing lots of sequencing. To mitigate against this, we've set up separate analyses to focus on particular regions. They are available on the \"Dataset\" dropdown on the left or by clicking on the following links: [Africa](/ncov/africa/), [Asia](/ncov/asia/), [Europe](/ncov/europe/), [North America](/ncov/north-america/), [Oceania](/ncov/oceania/) and [South America](/ncov/south-america/).\n\nSite numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 8 &times; 10^-4 subs per site per year. Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov). The JSON tree data underlying this visualization is available at [data.nextstrain.org/ncov_global.json](http://data.nextstrain.org/ncov_global.json).\n\nPhylogenetic context of nCoV in SARS-related betacoronaviruses can be seen [here](https://nextstrain.org/groups/blab/sars-like-cov).\n\nWe gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequence and metadata made available through [GISAID](https://gisaid.org) on which this research is based. A full listing of all originating and submitting laboratories is available below. An attribution table is available by clicking on \"Download Data\" at the bottom of the page and then clicking on \"Strain Metadata\" in the resulting dialog box.\n", 
+    "display_defaults": {
+      "geo_resolution": "country", 
+      "branch_label": "none", 
+      "distance_measure": "num_date", 
+      "map_triplicate": true, 
+      "color_by": "country"
+    }, 
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Snohomish County": {
+            "latitude": 48.006, 
+            "longitude": -122.0731
+          }, 
+          "Clayton": {
+            "latitude": -37.9152, 
+            "longitude": 145.127165
+          }, 
+          "Utrecht": {
+            "latitude": 52.0907, 
+            "longitude": 5.1214
+          }
+        }, 
+        "key": "location"
+      }, 
+      {
+        "demes": {
+          "Utrecht": {
+            "latitude": 52.08532, 
+            "longitude": 5.184968
+          }, 
+          "England": {
+            "latitude": 52.405994, 
+            "longitude": -1.671707
+          }, 
+          "Washington": {
+            "latitude": 47.183945, 
+            "longitude": -119.950361
+          }, 
+          "Victoria": {
+            "latitude": -37.121673, 
+            "longitude": 144.106178
+          }
+        }, 
+        "key": "division"
+      }, 
+      {
+        "demes": {
+          "United Kingdom": {
+            "latitude": 54.542713, 
+            "longitude": -2.384858
+          }, 
+          "Gambia": {
+            "latitude": 13.5, 
+            "longitude": -15.5
+          }, 
+          "Netherlands": {
+            "latitude": 52.3702, 
+            "longitude": 4.8952
+          }, 
+          "Australia": {
+            "latitude": -24.7761085, 
+            "longitude": 134.755
+          }, 
+          "USA": {
+            "latitude": 39.7837304, 
+            "longitude": -100.4458824
+          }
+        }, 
+        "key": "country"
+      }
+    ], 
+    "genome_annotations": {
+      "ORF3a": {
+        "start": 25393, 
+        "seqid": "config/reference.gb", 
+        "end": 26220, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "ORF6": {
+        "start": 27202, 
+        "seqid": "config/reference.gb", 
+        "end": 27387, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "ORF1a": {
+        "start": 266, 
+        "seqid": "config/reference.gb", 
+        "end": 13468, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "ORF1b": {
+        "start": 13468, 
+        "seqid": "config/reference.gb", 
+        "end": 21555, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "M": {
+        "start": 26523, 
+        "seqid": "config/reference.gb", 
+        "end": 27191, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "ORF8": {
+        "start": 27894, 
+        "seqid": "config/reference.gb", 
+        "end": 28259, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "N": {
+        "start": 28274, 
+        "seqid": "config/reference.gb", 
+        "end": 29533, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "ORF14": {
+        "start": 28734, 
+        "seqid": "config/reference.gb", 
+        "end": 28955, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "S": {
+        "start": 21563, 
+        "seqid": "config/reference.gb", 
+        "end": 25384, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "ORF10": {
+        "start": 29558, 
+        "seqid": "config/reference.gb", 
+        "end": 29674, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "ORF7a": {
+        "start": 27394, 
+        "seqid": "config/reference.gb", 
+        "end": 27759, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "E": {
+        "start": 26245, 
+        "seqid": "config/reference.gb", 
+        "end": 26472, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "ORF9b": {
+        "start": 28284, 
+        "seqid": "config/reference.gb", 
+        "end": 28577, 
+        "strand": "+", 
+        "type": "CDS"
+      }, 
+      "nuc": {
+        "start": 1, 
+        "seqid": "config/reference.gb", 
+        "end": 29903, 
+        "strand": "+", 
+        "type": "source"
+      }, 
+      "ORF7b": {
+        "start": 27756, 
+        "seqid": "config/reference.gb", 
+        "end": 27887, 
+        "strand": "+", 
+        "type": "CDS"
+      }
+    }, 
+    "build_url": "https://github.com/nextstrain/ncov", 
+    "maintainers": [
+      {
+        "url": "https://nextstrain.org/", 
+        "name": "the Nextstrain team"
+      }
+    ], 
+    "filters": [
+      "recency", 
+      "location", 
+      "division", 
+      "country", 
+      "region", 
+      "host", 
+      "author", 
+      "originating_lab", 
+      "submitting_lab"
+    ], 
+    "title": "Genomic epidemiology of novel coronavirus", 
+    "colorings": [
+      {
+        "type": "categorical", 
+        "key": "clade_membership", 
+        "title": "Clade"
+      }, 
+      {
+        "type": "continuous", 
+        "key": "num_date", 
+        "title": "Sampling date"
+      }, 
+      {
+        "type": "categorical", 
+        "key": "gt", 
+        "title": "Genotype"
+      }, 
+      {
+        "scale": [
+          [
+            "Clayton", 
+            "#4377CD"
+          ], 
+          [
+            "Utrecht", 
+            "#61AB9D"
+          ], 
+          [
+            "Snohomish County", 
+            "#E68133"
+          ]
+        ], 
+        "type": "categorical", 
+        "key": "location", 
+        "title": "Location"
+      }, 
+      {
+        "scale": [
+          [
+            "Victoria", 
+            "#59A3AA"
+          ], 
+          [
+            "Utrecht", 
+            "#BBBC49"
+          ], 
+          [
+            "England", 
+            "#E29D39"
+          ], 
+          [
+            "Washington", 
+            "#E1502A"
+          ]
+        ], 
+        "type": "categorical", 
+        "key": "division", 
+        "title": "Admin Division"
+      }, 
+      {
+        "scale": [
+          [
+            "Australia", 
+            "#59A3AA"
+          ], 
+          [
+            "France", 
+            "#84BA6F"
+          ], 
+          [
+            "Netherlands", 
+            "#BBBC49"
+          ], 
+          [
+            "United Kingdom", 
+            "#E29D39"
+          ], 
+          [
+            "USA", 
+            "#E1502A"
+          ]
+        ], 
+        "type": "categorical", 
+        "key": "country", 
+        "title": "Country"
+      }, 
+      {
+        "scale": [
+          [
+            "Oceania", 
+            "#4377CD"
+          ], 
+          [
+            "Africa", 
+            "#94BD61"
+          ], 
+          [
+            "Europe", 
+            "#CDB642"
+          ], 
+          [
+            "North America", 
+            "#E68133"
+          ]
+        ], 
+        "type": "categorical", 
+        "key": "region", 
+        "title": "Region"
+      }, 
+      {
+        "type": "categorical", 
+        "key": "host", 
+        "title": "Host"
+      }, 
+      {
+        "type": "continuous", 
+        "key": "age", 
+        "title": "Age"
+      }, 
+      {
+        "type": "categorical", 
+        "key": "sex", 
+        "title": "Sex"
+      }, 
+      {
+        "type": "categorical", 
+        "key": "author", 
+        "title": "Authors"
+      }, 
+      {
+        "type": "categorical", 
+        "key": "originating_lab", 
+        "title": "Originating Lab"
+      }, 
+      {
+        "type": "categorical", 
+        "key": "submitting_lab", 
+        "title": "Submitting Lab"
+      }, 
+      {
+        "scale": [
+          [
+            "Older", 
+            "#416DCE"
+          ], 
+          [
+            "3-7 days ago", 
+            "#BBBC49"
+          ], 
+          [
+            "New", 
+            "#E1502A"
+          ]
+        ], 
+        "type": "categorical", 
+        "key": "recency", 
+        "title": "Submission Date"
+      }, 
+      {
+        "type": "categorical", 
+        "key": "country_exposure", 
+        "title": "Exposure History"
+      }, 
+      {
+        "scale": [
+          [
+            "Older", 
+            "#416DCE"
+          ], 
+          [
+            "3-7 days ago", 
+            "#BBBC49"
+          ], 
+          [
+            "New", 
+            "#E1502A"
+          ]
+        ], 
+        "type": "categorical", 
+        "key": "recency", 
+        "title": "Submission Date"
+      }
+    ]
+  }, 
+  "tree": {
+    "node_attrs": {
+      "country": {
+        "confidence": {
+          "Netherlands": 0.2402252047557449, 
+          "China": 0.41845944199340074, 
+          "?": 0.10109014849510882, 
+          "France": 0.24022520475574555
+        }, 
+        "entropy": 1.2814321492088279, 
+        "value": "China"
+      }, 
+      "div": 0, 
+      "num_date": {
+        "confidence": [
+          2010.0599844616966, 
+          2020.0195909306951
+        ], 
+        "value": 2019.6942473317129
+      }, 
+      "clade_membership": {
+        "value": "unassigned"
+      }
+    }, 
+    "branch_attrs": {
+      "mutations": {}
+    }, 
+    "name": "NODE_0000001", 
+    "children": [
+      {
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "Netherlands": 0.08745232875902766, 
+              "China": 0.7796465227416837, 
+              "?": 0.04544881974026063, 
+              "France": 0.08745232875902804
+            }, 
+            "entropy": 0.7607388246835481, 
+            "value": "China"
+          }, 
+          "div": 5.506476849511868e-05, 
+          "num_date": {
+            "confidence": [
+              2014.2427630502632, 
+              2020.0505464480875
+            ], 
+            "value": 2019.8151029793137
+          }, 
+          "clade_membership": {
+            "value": "unassigned"
+          }
+        }, 
+        "branch_attrs": {
+          "mutations": {}
+        }, 
+        "name": "NODE_0000000", 
+        "children": [
+          {
+            "children": [
+              {
+                "node_attrs": {
+                  "division": {
+                    "value": "West coast"
+                  }, 
+                  "num_date": {
+                    "confidence": [
+                      2020.2199453551912, 
+                      2020.2199453551912
+                    ], 
+                    "value": 2020.2199453551912
+                  }, 
+                  "gisaid_epi_isl": {
+                    "value": "EPI_ISL_GC_026"
+                  }, 
+                  "submitting_lab": {
+                    "value": "MRCG Unit The Gambia at LSHTM, Genomics Lab"
+                  }, 
+                  "author": {
+                    "title": "Dr", 
+                    "value": "Sesay et al", 
+                    "author": "Sesay et al"
+                  }, 
+                  "url": "https://www.gisaid.org", 
+                  "country": {
+                    "value": "Gambia"
+                  }, 
+                  "age": {
+                    "value": "70"
+                  }, 
+                  "sex": {
+                    "value": "male"
+                  }, 
+                  "host": {
+                    "value": "Human"
+                  }, 
+                  "recency": {
+                    "value": "New"
+                  }, 
+                  "location": {
+                    "value": "West coast"
+                  }, 
+                  "originating_lab": {
+                    "value": "MRCG Unit The Gambia at LSHTM, Genomics Lab"
+                  }, 
+                  "div": 0.00022229749592020875, 
+                  "region": {
+                    "value": "Africa"
+                  }, 
+                  "country_exposure": {
+                    "value": "China"
+                  }, 
+                  "clade_membership": {
+                    "value": "unassigned"
+                  }
+                }, 
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "N: P13L; ORF1a: T2016K, L3606F; ORF1b: A88V; ORF9b: P10S"
+                  }, 
+                  "mutations": {
+                    "ORF9b": [
+                      "P10S"
+                    ], 
+                    "ORF1b": [
+                      "A88V"
+                    ], 
+                    "ORF1a": [
+                      "T2016K", 
+                      "L3606F"
+                    ], 
+                    "nuc": [
+                      "C6312A", 
+                      "G11083T", 
+                      "C13730T", 
+                      "C23929T", 
+                      "C28311T"
+                    ], 
+                    "N": [
+                      "P13L"
+                    ]
+                  }
+                }, 
+                "name": "GC19_026_case2_day0"
+              }
+            ], 
+            "name": "GC19_026_case2_day0_travel_history", 
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "Netherlands": 0.18758222259954094, 
+                  "China": 0.4911813450880014, 
+                  "?": 0.13365420971291628, 
+                  "France": 0.18758222259954138
+                }, 
+                "entropy": 1.2460323568491813, 
+                "value": "China"
+              }, 
+              "div": 0.00022229749592020875, 
+              "num_date": {
+                "confidence": [
+                  2020.2199453551912, 
+                  2020.2199453551912
+                ], 
+                "value": 2020.2199453551912
+              }
+            }
+          }, 
+          {
+            "children": [
+              {
+                "node_attrs": {
+                  "division": {
+                    "value": "Washington"
+                  }, 
+                  "num_date": {
+                    "confidence": [
+                      2020.0505464480875, 
+                      2020.0505464480875
+                    ], 
+                    "value": 2020.0505464480875
+                  }, 
+                  "gisaid_epi_isl": {
+                    "value": "EPI_ISL_404895"
+                  }, 
+                  "submitting_lab": {
+                    "value": "Division of Viral Diseases, Centers for Disease Control and Prevention"
+                  }, 
+                  "author": {
+                    "value": "Queen et al", 
+                    "author": "Queen et al"
+                  }, 
+                  "url": "https://www.gisaid.org", 
+                  "country": {
+                    "value": "USA"
+                  }, 
+                  "region": {
+                    "value": "North America"
+                  }, 
+                  "sex": {
+                    "value": "Male"
+                  }, 
+                  "genbank_accession": {
+                    "value": "MN985325"
+                  }, 
+                  "host": {
+                    "value": "Human"
+                  }, 
+                  "recency": {
+                    "value": "Older"
+                  }, 
+                  "location": {
+                    "value": "Snohomish County"
+                  }, 
+                  "originating_lab": {
+                    "value": "Providence Regional Medical Center"
+                  }, 
+                  "country_exposure": {
+                    "value": "China"
+                  }, 
+                  "div": 0.00015539588689259757, 
+                  "clade_membership": {
+                    "value": "B1"
+                  }
+                }, 
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF8: L84S", 
+                    "clade": "B1"
+                  }, 
+                  "mutations": {
+                    "ORF8": [
+                      "L84S"
+                    ], 
+                    "nuc": [
+                      "C8782T", 
+                      "C18060T", 
+                      "T28144C"
+                    ]
+                  }
+                }, 
+                "name": "USA/WA1/2020"
+              }
+            ], 
+            "name": "USA/WA1/2020_travel_history", 
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "China": 0.9999999999999999
+                }, 
+                "entropy": -9.99866855976916e-13, 
+                "value": "China"
+              }, 
+              "div": 0.00015539588689259757, 
+              "num_date": {
+                "confidence": [
+                  2020.0505464480875, 
+                  2020.0505464480875
+                ], 
+                "value": 2020.0505464480875
+              }
+            }
+          }, 
+          {
+            "children": [
+              {
+                "node_attrs": {
+                  "division": {
+                    "value": "Victoria"
+                  }, 
+                  "num_date": {
+                    "confidence": [
+                      2020.0669398907103, 
+                      2020.0669398907103
+                    ], 
+                    "value": 2020.0669398907103
+                  }, 
+                  "gisaid_epi_isl": {
+                    "value": "EPI_ISL_406844"
+                  }, 
+                  "submitting_lab": {
+                    "value": "Collaboration between the University of Melbourne at The Peter Doherty Institute for Infection and Immunity, and the Victorian Infectious Disease Reference Laboratory"
+                  }, 
+                  "author": {
+                    "value": "Caly et al", 
+                    "author": "Caly et al"
+                  }, 
+                  "url": "https://www.gisaid.org", 
+                  "country": {
+                    "value": "Australia"
+                  }, 
+                  "age": {
+                    "value": "50"
+                  }, 
+                  "sex": {
+                    "value": "Male"
+                  }, 
+                  "genbank_accession": {
+                    "value": "MT007544"
+                  }, 
+                  "host": {
+                    "value": "Human"
+                  }, 
+                  "recency": {
+                    "value": "Older"
+                  }, 
+                  "location": {
+                    "value": "Clayton"
+                  }, 
+                  "originating_lab": {
+                    "value": "Monash Medical Centre"
+                  }, 
+                  "div": 0.0001553951182353687, 
+                  "region": {
+                    "value": "Oceania"
+                  }, 
+                  "country_exposure": {
+                    "value": "China"
+                  }, 
+                  "clade_membership": {
+                    "value": "unassigned"
+                  }
+                }, 
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF3a: G251V; S: S247R"
+                  }, 
+                  "mutations": {
+                    "ORF3a": [
+                      "G251V"
+                    ], 
+                    "S": [
+                      "S247R"
+                    ], 
+                    "nuc": [
+                      "T19065C", 
+                      "T22303G", 
+                      "G26144T"
+                    ]
+                  }
+                }, 
+                "name": "Australia/VIC01/2020"
+              }
+            ], 
+            "name": "Australia/VIC01/2020_travel_history", 
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "China": 0.9999999999999999
+                }, 
+                "entropy": -9.99866855976916e-13, 
+                "value": "China"
+              }, 
+              "div": 0.0001553951182353687, 
+              "num_date": {
+                "confidence": [
+                  2020.0669398907103, 
+                  2020.0669398907103
+                ], 
+                "value": 2020.0669398907103
+              }
+            }
+          }
+        ]
+      }, 
+      {
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "Netherlands": 0.38104858399691377, 
+              "China": 0.1767863144975924, 
+              "?": 0.06111651750857923, 
+              "France": 0.38104858399691455
+            }, 
+            "entropy": 1.2124497297890107, 
+            "value": "France"
+          }, 
+          "div": 7.870713947437388e-05, 
+          "num_date": {
+            "confidence": [
+              2013.6090500427163, 
+              2020.1653005464482
+            ], 
+            "value": 2019.8231208113557
+          }, 
+          "clade_membership": {
+            "value": "A2a"
+          }
+        }, 
+        "branch_attrs": {
+          "labels": {
+            "aa": "ORF1b: P314L; S: D614G", 
+            "clade": "A2a"
+          }, 
+          "mutations": {
+            "S": [
+              "D614G"
+            ], 
+            "nuc": [
+              "C241T", 
+              "C3037T", 
+              "C14408T", 
+              "A23403G"
+            ], 
+            "ORF1b": [
+              "P314L"
+            ]
+          }
+        }, 
+        "name": "NODE_0000002", 
+        "children": [
+          {
+            "node_attrs": {
+              "division": {
+                "value": "Utrecht"
+              }, 
+              "num_date": {
+                "confidence": [
+                  2020.1653005464482, 
+                  2020.1653005464482
+                ], 
+                "value": 2020.1653005464482
+              }, 
+              "originating_lab": {
+                "value": "MHC Utrecht"
+              }, 
+              "submitting_lab": {
+                "value": "Erasmus Medical Center"
+              }, 
+              "gisaid_epi_isl": {
+                "value": "EPI_ISL_413589"
+              }, 
+              "url": "https://www.gisaid.org", 
+              "country": {
+                "confidence": {
+                  "Netherlands": 1.0
+                }, 
+                "entropy": -1.000088900581841e-12, 
+                "value": "Netherlands"
+              }, 
+              "region": {
+                "value": "Europe"
+              }, 
+              "author": {
+                "value": "Nieuwenhuijse et al", 
+                "author": "Nieuwenhuijse et al"
+              }, 
+              "host": {
+                "value": "Human"
+              }, 
+              "recency": {
+                "value": "Older"
+              }, 
+              "location": {
+                "value": "Utrecht"
+              }, 
+              "div": 0.00021248769420800906, 
+              "clade_membership": {
+                "value": "A2a"
+              }
+            }, 
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1a: E754D, P2055S, L3606F; ORF3a: K61N"
+              }, 
+              "mutations": {
+                "ORF3a": [
+                  "K61N"
+                ], 
+                "ORF1a": [
+                  "E754D", 
+                  "P2055S", 
+                  "L3606F"
+                ], 
+                "nuc": [
+                  "G2527T", 
+                  "C6428T", 
+                  "G11083T", 
+                  "A25575C"
+                ]
+              }
+            }, 
+            "name": "Netherlands/Utrecht_1363628/2020"
+          }, 
+          {
+            "children": [
+              {
+                "node_attrs": {
+                  "division": {
+                    "value": "West coast"
+                  }, 
+                  "num_date": {
+                    "confidence": [
+                      2020.217213114754, 
+                      2020.217213114754
+                    ], 
+                    "value": 2020.217213114754
+                  }, 
+                  "gisaid_epi_isl": {
+                    "value": "EPI_ISL_GC_029"
+                  }, 
+                  "submitting_lab": {
+                    "value": "MRCG Unit The Gambia at LSHTM, Genomics Lab"
+                  }, 
+                  "author": {
+                    "title": "Dr", 
+                    "value": "Sesay et al", 
+                    "author": "Sesay et al"
+                  }, 
+                  "url": "https://www.gisaid.org", 
+                  "country": {
+                    "value": "Gambia"
+                  }, 
+                  "age": {
+                    "value": "71"
+                  }, 
+                  "sex": {
+                    "value": "male"
+                  }, 
+                  "host": {
+                    "value": "Human"
+                  }, 
+                  "recency": {
+                    "value": "New"
+                  }, 
+                  "location": {
+                    "value": "West coast"
+                  }, 
+                  "originating_lab": {
+                    "value": "MRCG Unit The Gambia at LSHTM, Genomics Lab"
+                  }, 
+                  "div": 0.00017904149633756768, 
+                  "region": {
+                    "value": "Africa"
+                  }, 
+                  "country_exposure": {
+                    "value": "France"
+                  }, 
+                  "clade_membership": {
+                    "value": "A2a"
+                  }
+                }, 
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1a: Q2702H; ORF3a: Q57H"
+                  }, 
+                  "mutations": {
+                    "ORF3a": [
+                      "Q57H"
+                    ], 
+                    "ORF1a": [
+                      "Q2702H"
+                    ], 
+                    "nuc": [
+                      "C2416T", 
+                      "G8371T", 
+                      "G25563T"
+                    ]
+                  }
+                }, 
+                "name": "GC19_029_case3_day0"
+              }
+            ], 
+            "name": "GC19_029_case3_day0_travel_history", 
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "France": 1.0
+                }, 
+                "entropy": -1.000088900581841e-12, 
+                "value": "France"
+              }, 
+              "div": 0.00017904149633756768, 
+              "num_date": {
+                "confidence": [
+                  2020.217213114754, 
+                  2020.217213114754
+                ], 
+                "value": 2020.217213114754
+              }
+            }
+          }, 
+          {
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "Netherlands": 0.2972977645812934, 
+                  "China": 0.26587687945148775, 
+                  "?": 0.13952759138592485, 
+                  "France": 0.2972977645812939
+                }, 
+                "entropy": 1.3482684404088436, 
+                "value": "France"
+              }, 
+              "div": 0.00017904636971955638, 
+              "num_date": {
+                "confidence": [
+                  2019.4928613939735, 
+                  2020.2090163934427
+                ], 
+                "value": 2020.1139661292314
+              }, 
+              "clade_membership": {
+                "value": "A2a"
+              }
+            }, 
+            "branch_attrs": {
+              "labels": {
+                "aa": "N: R203K, G204R; ORF14: G50N"
+              }, 
+              "mutations": {
+                "ORF14": [
+                  "G50N"
+                ], 
+                "nuc": [
+                  "G28881A", 
+                  "G28882A", 
+                  "G28883C"
+                ], 
+                "N": [
+                  "R203K", 
+                  "G204R"
+                ]
+              }
+            }, 
+            "name": "NODE_0000004", 
+            "children": [
+              {
+                "children": [
+                  {
+                    "node_attrs": {
+                      "division": {
+                        "value": "West coast"
+                      }, 
+                      "num_date": {
+                        "confidence": [
+                          2020.2090163934427, 
+                          2020.2090163934427
+                        ], 
+                        "value": 2020.2090163934427
+                      }, 
+                      "gisaid_epi_isl": {
+                        "value": "EPI_ISL_GC_015"
+                      }, 
+                      "submitting_lab": {
+                        "value": "MRCG Unit The Gambia at LSHTM, Genomics Lab"
+                      }, 
+                      "author": {
+                        "title": "Dr", 
+                        "value": "Sesay et al", 
+                        "author": "Sesay et al"
+                      }, 
+                      "url": "https://www.gisaid.org", 
+                      "country": {
+                        "value": "Gambia"
+                      }, 
+                      "age": {
+                        "value": "28"
+                      }, 
+                      "sex": {
+                        "value": "Female"
+                      }, 
+                      "host": {
+                        "value": "Human"
+                      }, 
+                      "recency": {
+                        "value": "New"
+                      }, 
+                      "location": {
+                        "value": "West coast"
+                      }, 
+                      "originating_lab": {
+                        "value": "MRCG Unit The Gambia at LSHTM, Genomics Lab"
+                      }, 
+                      "div": 0.0002459362926497565, 
+                      "region": {
+                        "value": "Africa"
+                      }, 
+                      "country_exposure": {
+                        "value": "China"
+                      }, 
+                      "clade_membership": {
+                        "value": "A2a"
+                      }
+                    }, 
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF1a: S2103F; ORF3a: L46F"
+                      }, 
+                      "mutations": {
+                        "ORF3a": [
+                          "L46F"
+                        ], 
+                        "ORF1a": [
+                          "S2103F"
+                        ], 
+                        "nuc": [
+                          "C6573T", 
+                          "C25528T"
+                        ]
+                      }
+                    }, 
+                    "name": "GC19_015_case1_day0"
+                  }
+                ], 
+                "name": "GC19_015_case1_day0_travel_history", 
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "Netherlands": 0.26442389104760927, 
+                      "China": 0.29738454094372996, 
+                      "?": 0.1737676769610511, 
+                      "France": 0.26442389104760966
+                    }, 
+                    "entropy": 1.3682209054333754, 
+                    "value": "China"
+                  }, 
+                  "div": 0.0002459362926497565, 
+                  "num_date": {
+                    "confidence": [
+                      2020.2090163934427, 
+                      2020.2090163934427
+                    ], 
+                    "value": 2020.2090163934427
+                  }
+                }
+              }, 
+              {
+                "children": [
+                  {
+                    "node_attrs": {
+                      "division": {
+                        "value": "England"
+                      }, 
+                      "num_date": {
+                        "confidence": [
+                          2020.2445355191257, 
+                          2020.2445355191257
+                        ], 
+                        "value": 2020.2445355191257
+                      }, 
+                      "gisaid_epi_isl": {
+                        "value": "EPI_ISL_423496"
+                      }, 
+                      "author": {
+                        "value": "Galiano et al", 
+                        "author": "Galiano et al"
+                      }, 
+                      "url": "https://www.gisaid.org", 
+                      "country": {
+                        "value": "United Kingdom"
+                      }, 
+                      "age": {
+                        "value": "62"
+                      }, 
+                      "sex": {
+                        "value": "Male"
+                      }, 
+                      "host": {
+                        "value": "Human"
+                      }, 
+                      "recency": {
+                        "value": "3-7 days ago"
+                      }, 
+                      "submitting_lab": {
+                        "value": "Respiratory Virus Unit, Microbiology Services Colindale, Public Health England"
+                      }, 
+                      "originating_lab": {
+                        "value": "Respiratory Virus Unit, Microbiology Services Colindale, Public Health England"
+                      }, 
+                      "div": 0.00017904636971955874, 
+                      "region": {
+                        "value": "Europe"
+                      }, 
+                      "country_exposure": {
+                        "value": "China"
+                      }, 
+                      "clade_membership": {
+                        "value": "A2a"
+                      }
+                    }, 
+                    "branch_attrs": {
+                      "mutations": {}
+                    }, 
+                    "name": "England/20144006904/2020"
+                  }
+                ], 
+                "name": "England/20144006904/2020_travel_history", 
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "Netherlands": 0.26442389104760927, 
+                      "China": 0.29738454094372996, 
+                      "?": 0.1737676769610511, 
+                      "France": 0.26442389104760966
+                    }, 
+                    "entropy": 1.3682209054333754, 
+                    "value": "China"
+                  }, 
+                  "div": 0.00017904636971955874, 
+                  "num_date": {
+                    "confidence": [
+                      2020.2445355191257, 
+                      2020.2445355191257
+                    ], 
+                    "value": 2020.2445355191257
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }, 
+  "version": "v2"
+}
